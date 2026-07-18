@@ -8,20 +8,24 @@ public class reverseWordbyWord {
         //Input: Arka is good boy
         //Output: boy good is Arka
 
-        String str="Arka is good boy";
+        String str="Arka is a good boy";
         String word="";
         String result="";
 
         for(int i=str.length()-1;i>=0;i--){
             if(str.charAt(i)!=' '){
-                word=str.charAt(i)+ word;
+                word=str.charAt(i)+word;
             } else {
-                result +=word+ " ";
+                result+= word+" ";
                 word="";
             }
+
+            
         }
         result+=word;
         System.out.println(result);
+
+
 
 
     }
