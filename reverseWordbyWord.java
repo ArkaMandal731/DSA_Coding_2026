@@ -5,6 +5,8 @@ public class reverseWordbyWord {
     public static void main(String args[]){
 
         // Reverse a sentence word by word logic and word reverse the word
+        //Input: Arka is good boy
+        //Output: boy good is Arka
 
         String str="Arka is good boy";
         String word="";
